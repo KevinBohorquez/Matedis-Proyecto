@@ -13,17 +13,12 @@ function About() {
     setMessage('');
 
     try {
-      const response = await fetch('https://matedisproyectorhamses.up.railway.app/About', {
-          method: 'POST',
-          headers: {
-              'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ message }),
-      });
-  
-      const data = await response.json();
-      const botResponse = data.response || 'No pude entender eso.';
-      setChatHistory([...newChatHistory, { sender: 'Chatbot', message: botResponse }]);
+        const response = await axios.post('https://matedisproyectorhamses.up.railway.app/api/about', {
+        message: message
+        });
+
+        const botResponse = response.data.response || 'No pude entender eso.';
+        setChatHistory([...newChatHistory, { sender: 'Chatbot', message: botResponse }]);
     } catch (error) {
         console.error('Error al comunicarse con el servidor:', error);
         setChatHistory([...newChatHistory, { sender: 'Chatbot', message: 'Hubo un error en el servidor.' }]);

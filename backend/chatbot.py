@@ -46,7 +46,7 @@ def get_response(tag, intents_json):
             return random.choice(i['responses'])
     return "Lo siento, no entiendo esa pregunta."
 
-@app.route('/About', methods=['POST'])
+@app.route('/api/about', methods=['POST'])
 def chat():
     data = request.get_json()
     message = data.get("message")
