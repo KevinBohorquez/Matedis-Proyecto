@@ -1,0 +1,757 @@
+{
+  "markers": [
+    { "name": "Paradero FISI", "lat": -12.0537101 , "lng": -77.0857720 },
+    { "name": "fisiPuerta7.1", "lat": -12.0537836 , "lng": -77.0851470 },
+    { "name": "fisiPuerta7.2", "lat": -12.0539129 , "lng": -77.0849745 },
+    { "name": "fisiPuerta7.3", "lat": -12.0540603 , "lng": -77.0847314 },
+    { "name": "fisiPuerta7.4", "lat": -12.0542203 , "lng": -77.0848360 },
+    { "name": "fisiPuerta7.5", "lat": -12.0537910  , "lng": -77.0848014},
+    { "name": "fisiPuerta7.6", "lat": -12.0538959  , "lng": -77.0846103},
+    { "name": "fisiPuerta7.7", "lat": -12.0543736  , "lng":-77.0838727 },
+    { "name": "fisiPuerta7.8", "lat": -12.0545230  , "lng": -77.0839290},
+    { "name": "fisiPuerta7.9", "lat": -12.0547024  , "lng": -77.0836625},
+    { "name": "fisiPuerta7.10", "lat": -12.0554133  , "lng": -77.0832990},
+    { "name": "fueraTunel", "lat": -12.0554946  , "lng": -77.0828281 },
+    { "name": "fueraTunel2", "lat": -12.0552714  , "lng": -77.0824284},
+    { "name": "fueraTunel3", "lat": -12.0553187 , "lng":-77.0823268  },
+    { "name": "SindicatoDocentes", "lat": -12.0558483  , "lng": -77.0826177},
+    { "name": "PasoClinica", "lat": -12.0554005  , "lng":-77.0823588 },
+    { "name": "Clinica", "lat": -12.0555552  , "lng": -77.0821039},
+    { "name": "Clinica1", "lat": -12.0561313  , "lng": -77.0811820},
+    { "name": "Puerta 4", "lat":-12.0559768  , "lng":  -77.0810720},
+    { "name": "Puerta7Rotonda", "lat": -12.0549037 , "lng": -77.0852656},
+    { "name": "RotondaIzquierda", "lat": -12.0549320 , "lng": -77.0853400},
+    { "name": "FISIQuiosco", "lat": -12.0537244 , "lng":-77.0856956 },
+    { "name": "EntradaOdonto", "lat": -12.0541554 , "lng": -77.0857381},
+    { "name": "EstacionamientoOdonto", "lat": -12.0537540 , "lng": -77.0854064},
+    { "name": "CafeteriaOdonto", "lat": -12.0546062  , "lng": -77.0851192},
+    { "name": "CruceOdonto", "lat": -12.0542082  , "lng": -77.0852399},
+    { "name": "EntradaOdonto2", "lat": -12.0548597  , "lng": -77.0858128},
+    { "name": "Economiaizq1", "lat": -12.0534778 , "lng": -77.0864001 },
+    { "name": "Economiaizq2", "lat": -12.0534620 , "lng": -77.0864538 },
+    { "name": "EsquinaOdonto", "lat": -12.0547481  , "lng": -77.0866021},
+    { "name": "InstitutoMedTropical", "lat": -12.0541537  , "lng":-77.0864868 },
+    { "name": "CafeteriaOdontoPaso", "lat": -12.0547674  , "lng":-77.0851828 },
+    { "name": "LenguaYliteratura", "lat": -12.0550113  , "lng": -77.0848455},
+    { "name": "EdFisica", "lat":  -12.0546604  , "lng":-77.0847651 },
+    { "name": "EdFisicaPaso", "lat": -12.0545030  , "lng": -77.0850145},
+    { "name": "InterseccionEduca", "lat": -12.0552248  , "lng": -77.0849973},
+    { "name": "EducaBiblio1", "lat": -12.0553471  , "lng": -77.0847720},
+    { "name": "EducaBiblio2", "lat": -12.0556933 , "lng":-77.0848096},
+    { "name": "EducaBiblio3", "lat":-12.0558511   , "lng": -77.0848648},
+    { "name": "Paradero Biblioteca", "lat": -12.0562575  , "lng": -77.0851143},
+    { "name": "EntradaGeograficas", "lat": -12.0548572  , "lng": -77.0859447},
+    { "name": "Geografia", "lat": -12.0553180  , "lng": -77.0859952},
+    { "name": "Plaza Fray Tomas", "lat": -12.0559367, "lng": -77.0860166  },
+    { "name": "EsquinaparaderoBiblio", "lat":-12.0562907 , "lng": -77.0853378},
+    { "name": "Rectorado", "lat": -12.0564589  , "lng":-77.0863379 },
+    { "name": "EllaDumbar", "lat":  -12.0566527 , "lng":-77.0860417 },
+    { "name": "EstacionamientosBiblio", "lat": -12.0569053  , "lng": -77.0855991},
+    { "name": "EsquinaestacionamientosBiblio", "lat": -12.0564029  , "lng": -77.0852960},
+    { "name": "salidaEstacionamientoBiblio", "lat": -12.0572102 , "lng":-77.0857146  },
+    { "name": "AdiosBiblio1", "lat": -12.0574968 , "lng":-77.0856395  },
+    { "name": "AdiosBiblio2", "lat": -12.0578221  , "lng": -77.0857593},
+    { "name": "AdiosBiblio3", "lat": -12.0580960  , "lng": -77.0856780},
+    { "name": "CaminoAFluidos1", "lat": -12.0577156  , "lng": -77.0863472},
+    { "name": "CaminoAFluidos2", "lat": -12.0576388  , "lng": -77.0869772},
+    { "name": "Fluidos", "lat": -12.0570092  , "lng":-77.0869182 },
+    { "name": "Pista Larga", "lat": -12.0575024 , "lng": -77.0882036 },
+    { "name": "EsqSeparadas", "lat": -12.0585427  , "lng": -77.0849083},
+    { "name": "Esq1", "lat": -12.0586660  , "lng":-77.0848064 },
+    { "name": "Esq2", "lat":  -12.0586765 , "lng": -77.0848842},
+    { "name": "Esq11", "lat":  -12.0588642  , "lng": -77.0844656},
+    { "name": "Esq12", "lat": -12.0588956 , "lng":  -77.0842859},
+    { "name": "Esq13", "lat": -12.0588904  , "lng": -77.0840848},
+    { "name": "AtrasComedor", "lat": -12.0592492  , "lng": -77.0837683},
+    { "name": "Esq21", "lat": -12.0588792 , "lng": -77.0846170 },
+    { "name": "Esq22", "lat":-12.0590881  , "lng": -77.0846384 },
+    { "name": "Paradero Comedor", "lat": -12.0601215  , "lng":-77.0843910 },
+    { "name": "CanchaFutbol", "lat": -12.0600654  , "lng": -77.0841605},
+    { "name": "GoGym", "lat": -12.0597062  , "lng": -77.0844958},
+    { "name": "EntradaGym", "lat": -12.0596380  , "lng": -77.0842302},
+    { "name": "adiosgym1", "lat": -12.0595980  , "lng":-77.0840157 },
+    { "name": "adiosgym2", "lat": -12.0594904  , "lng": -77.0838789},
+    { "name": "PasoComedor", "lat": -12.0597730  , "lng":-77.0829360 },
+    { "name": "QuimiCafe", "lat": -12.0599881  , "lng":-77.0838010 },
+    { "name": "MasPistaLarga1", "lat": -12.0609226  , "lng": -77.0842156},
+    { "name": "MasPistaLarga2", "lat": -12.0607550  , "lng":-77.0828387 },
+    { "name": "MasPistaLarga3", "lat": -12.0607026  , "lng": -77.0824430},
+    { "name": "CliniAdios1", "lat":-12.0564745   , "lng":-77.0810574 },
+    { "name": "CliniAdios2", "lat": -12.0564063  , "lng":-77.0807642 },
+    { "name": "CliniAdios3", "lat": -12.0564098  , "lng": -77.0806006},
+    { "name": "CliniAdios4", "lat": -12.0565158  , "lng":-77.0804826 },
+    { "name": "CliniAdios5", "lat": -12.0566601  , "lng": -77.0803994},
+    { "name": "Puerta 3 dentro", "lat": -12.0571758  , "lng": -77.0802975},
+    { "name": "letras1", "lat":-12.0574417  , "lng":-77.0814113 },
+    { "name": "CienciasAdministrativas", "lat": -12.0574925 , "lng":-77.0816103 },
+    { "name": "Piscina", "lat": -12.0584337 , "lng": -77.0811481},
+    { "name": "Sociales", "lat": -12.0578835 , "lng": -77.0813009},
+    { "name": "VamoComedor1", "lat": -12.0589007 , "lng":-77.0810418 },
+    { "name": "VamoComedor2", "lat": -12.0591529 , "lng": -77.0821307},
+    { "name": "VamoComedor3", "lat": -12.0590768 , "lng": -77.0828751},
+    { "name": "Quimica", "lat": -12.0599451 , "lng": -77.0836125},
+    { "name": "C1", "lat": -12.0594158 , "lng": -77.0829448},
+    { "name": "C2", "lat": -12.0594237 , "lng": -77.0827302},
+    { "name": "CC", "lat": -12.0595470 , "lng": -77.0832630},
+    { "name": "C5", "lat": -12.0595208 , "lng":-77.0830583 },
+    { "name": "C6", "lat": -12.0594840 , "lng": -77.0829510},
+    { "name": "C7", "lat": -12.0596388 , "lng":-77.0831843 },
+    { "name": "C8", "lat": -12.0595470 , "lng":-77.0827793 },
+    { "name": "C9", "lat": -12.0596430 , "lng":-77.0833489 },
+    { "name": "C10", "lat": -12.0598187 , "lng": -77.0834669},
+    { "name": "C11", "lat": -12.0598974 , "lng":-77.0834669 },
+    { "name": "C12", "lat": -12.0598084 , "lng": -77.0830844},
+    { "name": "C13", "lat": -12.0597166 , "lng": -77.0826606},
+    { "name": "CienciasBiologicas", "lat": -12.0596776 , "lng": -77.0825209},
+    { "name": "Ciencias FIsicas", "lat": -12.0595063 , "lng":-77.0818447 },
+    { "name": "Pista1", "lat": -12.0590037 , "lng":-77.0798282 },
+    { "name": "Paradero Puerta 2", "lat": -12.0596064 , "lng":-77.0796736 },
+    { "name": "Pista2", "lat": -12.0575875 , "lng": -77.0801528},
+    { "name": "bosqueLetras", "lat": -12.0576030 , "lng": -77.0810090},
+    { "name": "tubos1", "lat": -12.0560232 , "lng": -77.0822909},
+    { "name": "tubos2", "lat": -12.0563327 , "lng": -77.0820951},
+    { "name": "tubos3", "lat": -12.0567990 , "lng": -77.0819610},
+    { "name": "tubos4", "lat": -12.0567806 , "lng": -77.0818939},
+    { "name": "administrativizq", "lat": -12.0575218 , "lng": -77.0816847},
+    { "name": "CliniAdiosmas1", "lat": -12.0565543 , "lng": -77.0810982},
+    { "name": "pt31", "lat": -12.0566082 , "lng": -77.0809202},
+    { "name": "pt32", "lat": -12.0569872 , "lng": -77.0807102},
+    { "name": "pt33", "lat": -12.0572521 , "lng": -77.0806378},
+    { "name": "ComedorA1", "lat": -12.0594662 , "lng": -77.0826277},
+    { "name": "ComedorA2", "lat": -12.0595422 , "lng": -77.0824990},
+    { "name": "ComedorA3", "lat": -12.0596498 , "lng":-77.0824239 },
+    { "name": "FII", "lat": -12.0604803 , "lng": -77.0813746},
+    { "name": "esquinazo1", "lat": -12.0600563 , "lng":-77.0798216 },
+    { "name": "esquinazo2", "lat": -12.0599016 , "lng":-77.0796688 },
+    { "name": "esquinazo3", "lat": -12.0597521 , "lng":-77.0796473 },
+    { "name": "Interseccion1", "lat": -12.0592891 , "lng":-77.0809339 },
+    { "name": "Interseccion2", "lat": -12.0594386 , "lng":-77.0808883 },
+    { "name": "Interseccion3", "lat": -12.0591585 , "lng": -77.0797913},
+    { "name": "Interseccion4", "lat": -12.0593972 , "lng":-77.0807069 },
+    { "name": "Interseccion5", "lat": -12.0602543 , "lng":-77.0804950 },
+    { "name": "CentroParque", "lat": -12.0596817 , "lng": -77.0801556},
+    { "name": "gopt11", "lat": -12.0610426 , "lng":-77.0852044 },
+    { "name": "gopt12", "lat": -12.0610453 , "lng":-77.0854110 },
+    { "name": "gopt13", "lat": -12.0608538 , "lng": -77.0857570},
+    { "name": "AdiosFII", "lat": -12.0594492 , "lng": -77.0816152},
+    { "name": "Puerta 7", "lat": -12.0538252, "lng": -77.0845433 },
+    { "name": "Puerta 5", "lat": -12.0551449, "lng": -77.0824746 },
+    { "name": "Puerta 3", "lat": -12.0570816, "lng": -77.0800151 },
+    { "name": "Puerta 2", "lat": -12.0594935, "lng": -77.0793678 },
+    { "name": "Puerta 1", "lat": -12.0609396, "lng": -77.0858570 },
+    { "name": "Comedor", "lat": -12.0594562, "lng": -77.0830866 },
+    { "name": "Bancas Comedor", "lat": -12.0596503, "lng": -77.0829686 },
+    { "name": "Educacion", "lat": -12.0554638, "lng": -77.0851446 },
+    { "name": "Psicologia", "lat": -12.0533569, "lng": -77.0875918 },
+    { "name": "Enfermeria", "lat": -12.0533621, "lng": -77.0874603 },
+    { "name": "Tecnologia Biomedica", "lat": -12.0531108, "lng": -77.0865193 },
+    { "name": "Economia Publica", "lat": -12.0535026, "lng": -77.0862617 },
+    { "name": "Ciencias Economicas", "lat": -12.0529954, "lng": -77.0865326 },
+    { "name": "esqfisii", "lat": -12.0536665 , "lng":  -77.0860557},
+    { "name": "EO1", "lat":  -12.0548828, "lng": -77.0867184 },
+    { "name": "Biblioteca", "lat":  -12.0559161, "lng": -77.0858277 }
+  ],
+  "connections":
+  [
+    {
+      "from": "Paradero FISI",
+      "to": ["FISIQuiosco", "esqfisii", "Economia Publica"]
+    },
+    {
+      "from": "esqfisii",
+      "to": ["Paradero FISI"]
+    },
+    {
+      "from": "FISIQuiosco",
+      "to": ["EntradaOdonto", "EstacionamientoOdonto", "Paradero FISI"]
+    },
+    {
+      "from": "EntradaOdonto",
+      "to": ["CruceOdonto", "FISIQuiosco"]
+    },
+    {
+      "from": "CruceOdonto",
+      "to": ["fisiPuerta7.1", "fisiPuerta7.4", "EntradaOdonto"]
+    },
+    {
+      "from": "EstacionamientoOdonto",
+      "to": ["fisiPuerta7.1", "FISIQuiosco"]
+    },
+    {
+      "from": "fisiPuerta7.1",
+      "to": ["EstacionamientoOdonto", "CruceOdonto", "fisiPuerta7.2", "fisiPuerta7.5"]
+    },
+    {
+      "from": "fisiPuerta7.2",
+      "to": ["fisiPuerta7.1", "fisiPuerta7.3", "fisiPuerta7.4"]
+    },
+    {
+      "from": "fisiPuerta7.3",
+      "to": ["fisiPuerta7.2", "fisiPuerta7.4", "fisiPuerta7.6", "fisiPuerta7.8"]
+    },
+    {
+      "from": "fisiPuerta7.4",
+      "to": ["fisiPuerta7.2", "fisiPuerta7.3", "CruceOdonto", "EdFisicaPaso"]
+    },
+    {
+      "from": "fisiPuerta7.5",
+      "to": ["fisiPuerta7.1", "fisiPuerta7.6"]
+    },
+    {
+      "from": "fisiPuerta7.6",
+      "to": ["fisiPuerta7.3", "fisiPuerta7.5", "Puerta 7", "fisiPuerta7.7"]
+    },
+    {
+      "from": "Puerta 7",
+      "to": ["fisiPuerta7.6"]
+    },
+    {
+      "from": "fisiPuerta7.7",
+      "to": ["fisiPuerta7.6", "fisiPuerta7.8"]
+    },
+    {
+      "from": "fisiPuerta7.8",
+      "to": ["fisiPuerta7.3", "fisiPuerta7.7", "fisiPuerta7.9"]
+    },
+    {
+      "from": "fisiPuerta7.9",
+      "to": ["fisiPuerta7.8", "fisiPuerta7.10"]
+    },
+    {
+      "from": "fisiPuerta7.10",
+      "to": ["fisiPuerta7.9", "fueraTunel"]
+    },
+    {
+      "from": "fueraTunel",
+      "to": ["fisiPuerta7.10", "fueraTunel2"]
+    },
+    {
+      "from": "fueraTunel2",
+      "to": ["fueraTunel", "fueraTunel3", "Puerta 5"]
+    },
+    {
+      "from": "Puerta 5",
+      "to": ["fueraTunel2"]
+    },
+    {
+      "from": "fueraTunel3",
+      "to": ["fueraTunel2", "PasoClinica"]
+    },
+    {
+      "from": "PasoClinica",
+      "to": ["fueraTunel3", "Clinica", "SindicatoDocentes"]
+    },
+    {
+      "from": "Clinica",
+      "to": ["PasoClinica", "Clinica1"]
+    },
+    {
+      "from": "SindicatoDocentes",
+      "to": ["PasoClinica", "tubos1"]
+    },
+    {
+      "from": "tubos1",
+      "to": ["SindicatoDocentes", "tubos2"]
+    },
+    {
+      "from": "tubos2",
+      "to": ["tubos1", "tubos3"]
+    },
+    {
+      "from": "tubos3",
+      "to": ["tubos2", "tubos4"]
+    },
+    {
+      "from": "Clinica1",
+      "to": ["Clinica", "Puerta 4", "CliniAdios1", "CliniAdios2"]
+    },
+    {
+      "from": "CliniAdios1",
+      "to": ["Clinica1", "CliniAdiosmas1", "CliniAdios2"]
+    },
+    {
+      "from": "CliniAdios2",
+      "to": ["CliniAdios1", "Clinica1", "CliniAdios3"]
+    },
+    {
+      "from": "Puerta 4",
+      "to": ["CliniAdios3", "Clinica1"]
+    },
+    {
+      "from": "CliniAdios3",
+      "to": ["CliniAdios2", "CliniAdios4", "Puerta 4"]
+    },
+    {
+      "from": "CliniAdios4",
+      "to": ["CliniAdios3", "CliniAdios5"]
+    },
+    {
+      "from": "CliniAdios5",
+      "to": ["CliniAdios4", "Puerta 3", "Puerta 3 dentro"]
+    },
+    {
+      "from": "Puerta 3 dentro",
+      "to": ["pt33", "CliniAdios5", "Puerta 3", "Pista2"]
+    },
+    {
+      "from": "Puerta 3",
+      "to": ["Puerta 3 dentro"]
+    },
+    {
+      "from": "pt33",
+      "to": ["Puerta 3", "letras1", "pt32", "bosqueLetras"]
+    },
+    {
+      "from": "pt32",
+      "to": ["pt33", "pt31"]
+    },
+    {
+      "from": "pt31",
+      "to": ["pt32"]
+    },
+    {
+      "from": "CliniAdiosmas1",
+      "to": ["CliniAdios1", "pt31", "tubos4"]
+    },
+    {
+      "from": "tubos4",
+      "to": ["CliniAdiosmas1", "tubos3", "administrativizq"]
+    },
+    {
+      "from": "administrativizq",
+      "to": ["CienciasAdministrativas", "tubos4"]
+    },
+    {
+      "from": "CienciasAdministrativas",
+      "to": ["administrativizq", "letras1"]
+    },
+    {
+      "from": "letras1",
+      "to": ["CienciasAdministrativas", "Sociales", "pt33", "bosqueLetras"]
+    },
+    {
+      "from": "Pista2",
+      "to": ["Pista1", "Sociales", "Puerta 3 dentro", "bosqueLetras"]
+    },
+    {
+      "from": "Pista1",
+      "to": ["Pista2", "Interseccion1", "Interseccion3"]
+    },
+    {
+      "from": "Sociales",
+      "to": ["letras1", "Pista2", "Piscina", "bosqueLetras"]
+    },
+    {
+      "from": "bosqueLetras",
+      "to": ["Pista2", "Sociales", "letras1", "pt33"]
+    },
+    {
+      "from": "Piscina",
+      "to": ["Sociales", "VamoComedor1"]
+    },
+    {
+      "from": "VamoComedor1",
+      "to": ["Piscina", "Interseccion1", "VamoComedor2"]
+    },
+    {
+      "from": "Interseccion1",
+      "to": ["VamoComedor1", "AdiosFII", "Pista1", "Interseccion2"]
+    },
+    {
+      "from": "Interseccion2",
+      "to": ["Interseccion1", "Interseccion4"]
+    },
+    {
+      "from": "Interseccion3",
+      "to": ["Pista1", "Interseccion4", "Paradero Puerta 2", "CentroParque"]
+    },
+    {
+      "from": "Interseccion4",
+      "to": ["Interseccion2", "Interseccion3", "Interseccion5", "CentroParque"]
+    },
+    {
+      "from": "Interseccion5",
+      "to": ["Interseccion4", "FII", "esquinazo1", "CentroParque"]
+    },
+    {
+      "from": "esquinazo1",
+      "to": ["Interseccion5", "esquinazo2"]
+    },
+    {
+      "from": "esquinazo2",
+      "to": ["esquinazo1", "esquinazo3", "CentroParque"]
+    },
+    {
+      "from": "esquinazo3",
+      "to": ["esquinazo2", "Paradero Puerta 2"]
+    },
+    {
+      "from": "Paradero Puerta 2",
+      "to": ["Puerta 2", "esquinazo3", "Interseccion3"]
+    },
+    {
+      "from": "Puerta 2",
+      "to": ["Paradero Puerta 2"]
+    },
+    {
+      "from": "CentroParque",
+      "to": ["esquinazo2", "Interseccion5", "Interseccion4", "Interseccion3"]
+    },
+    {
+      "from": "FII",
+      "to": ["Interseccion5", "MasPistaLarga3", "AdiosFII"]
+    },
+    {
+      "from": "AdiosFII",
+      "to": ["Ciencias FIsicas", "Interseccion1", "FII"]
+    },
+    {
+      "from": "MasPistaLarga3",
+      "to": ["FII", "C13", "MasPistaLarga2"]
+    },
+    {
+      "from": "MasPistaLarga2",
+      "to": ["MasPistaLarga3", "C12", "MasPistaLarga1"]
+    },
+    {
+      "from": "MasPistaLarga1",
+      "to": ["MasPistaLarga2", "Paradero Comedor", "gopt11"]
+    },
+    {
+      "from": "gopt11",
+      "to": ["MasPistaLarga1", "gopt12"]
+    },
+    {
+      "from": "gopt12",
+      "to": ["gopt11", "gopt13"]
+    },
+    {
+      "from": "gopt13",
+      "to": ["gopt12", "Puerta 1"]
+    },
+    {
+      "from": "Puerta 1",
+      "to": ["gopt13"]
+    },
+    {
+      "from": "Paradero Comedor",
+      "to": ["MasPistaLarga1", "GoGym", "CanchaFutbol"]
+    },
+    {
+      "from": "GoGym",
+      "to": ["Paradero Comedor", "EntradaGym", "Esq22"]
+    },
+    {
+      "from": "EntradaGym",
+      "to": ["adiosgym1", "CanchaFutbol", "GoGym"]
+    },
+    {
+      "from": "CanchaFutbol",
+      "to": ["Paradero Comedor", "QuimiCafe", "EntradaGym"]
+    },
+    {
+      "from": "QuimiCafe",
+      "to": ["CanchaFutbol", "adiosgym2", "Quimica"]
+    },
+    {
+      "from": "adiosgym1",
+      "to": ["adiosgym2", "EntradaGym"]
+    },
+    {
+      "from": "adiosgym2",
+      "to": ["adiosgym1", "QuimiCafe", "AtrasComedor"]
+    },
+    {
+      "from": "Esq22",
+      "to": ["Esq21", "GoGym"]
+    },
+    {
+      "from": "Esq21",
+      "to": ["Esq22", "Esq2"]
+    },
+    {
+      "from": "Esq2",
+      "to": ["EsqSeparadas", "Esq21"]
+    },
+    {
+      "from": "EsqSeparadas",
+      "to": ["Esq2", "AdiosBiblio3", "Esq1"]
+    },
+    {
+      "from": "Esq1",
+      "to": ["EsqSeparadas", "Esq11"]
+    },
+    {
+      "from": "Esq11",
+      "to": ["Esq1", "Esq12"]
+    },
+    {
+      "from": "Esq12",
+      "to": ["Esq11", "Esq13"]
+    },
+    {
+      "from": "Esq13",
+      "to": ["Esq12", "AtrasComedor"]
+    },
+    {
+      "from": "AtrasComedor",
+      "to": ["adiosgym2", "Esq13", "VamoComedor3", "C9"]
+    },
+    {
+      "from": "Quimica",
+      "to": ["QuimiCafe", "C11"]
+    },
+    {
+      "from": "C11",
+      "to": ["Quimica", "C10", "C12"]
+    },
+    {
+      "from": "C10",
+      "to": ["C9", "C11"]
+    },
+    {
+      "from": "C9",
+      "to": ["C10", "CC", "AtrasComedor"]
+    },
+    {
+      "from": "CC",
+      "to": ["C9", "C7", "Comedor"]
+    },
+    {
+      "from": "C7",
+      "to": ["CC", "Bancas Comedor", "C5"]
+    },
+    {
+      "from": "C5",
+      "to": ["C6", "C7", "Comedor", "Bancas Comedor"]
+    },
+    {
+      "from": "Comedor",
+      "to": ["CC", "C1", "C5"]
+    },
+    {
+      "from": "C1",
+      "to": ["Comedor", "C6", "C2"]
+    },
+    {
+      "from": "C6",
+      "to": ["C5", "C1", "C8", "Bancas Comedor"]
+    },
+    {
+      "from": "C2",
+      "to": ["C1", "ComedorA1", "C8"]
+    },
+    {
+      "from": "C8",
+      "to": ["C2", "C6", "C13", "Bancas Comedor"]
+    },
+    {
+      "from": "Bancas Comedor",
+      "to": ["C7", "C5", "C6", "C8", "PasoComedor"]
+    },
+    {
+      "from": "C12",
+      "to": ["C11", "PasoComedor", "MasPistaLarga2"]
+    },
+    {
+      "from": "PasoComedor",
+      "to": ["Bancas Comedor", "C12", "C13"]
+    },
+    {
+      "from": "C13",
+      "to": ["C8", "PasoComedor", "CienciasBiologicas", "MasPistaLarga3"]
+    },
+    {
+      "from": "CienciasBiologicas",
+      "to": ["C13", "ComedorA3"]
+    },
+    {
+      "from": "ComedorA3",
+      "to": ["CienciasBiologicas", "ComedorA2", "Ciencias FIsicas"]
+    },
+    {
+      "from": "ComedorA2",
+      "to": ["ComedorA3", "ComedorA1"]
+    },
+    {
+      "from": "ComedorA1",
+      "to": ["ComedorA2", "C2"]
+    },
+    {
+      "from": "Ciencias FIsicas",
+      "to": ["AdiosFII", "ComedorA3"]
+    },
+    {
+      "from": "VamoComedor3",
+      "to": ["AtrasComedor", "VamoComedor2"]
+    },
+    {
+      "from": "VamoComedor2",
+      "to": ["VamoComedor3", "VamoComedor1"]
+    },
+    {
+      "from": "AdiosBiblio3",
+      "to": ["EsqSeparadas", "AdiosBiblio2", "CaminoAFluidos1"]
+    },
+    {
+      "from": "CaminoAFluidos1",
+      "to": ["AdiosBiblio3", "CaminoAFluidos2", "Fluidos", "Pista Larga"]
+    },
+    {
+      "from": "Pista Larga",
+      "to": ["CaminoAFluidos1"]
+    },
+    {
+      "from": "CaminoAFluidos2",
+      "to": ["CaminoAFluidos1", "Fluidos"]
+    },
+    {
+      "from": "AdiosBiblio2",
+      "to": ["AdiosBiblio3", "AdiosBiblio1"]
+    },
+    {
+      "from": "AdiosBiblio1",
+      "to": ["AdiosBiblio2", "salidaEstacionamientoBiblio", "Paradero Biblioteca"]
+    },
+    {
+      "from": "salidaEstacionamientoBiblio",
+      "to": ["AdiosBiblio1", "EstacionamientosBiblio"]
+    },
+    {
+      "from": "EstacionamientosBiblio",
+      "to": ["EllaDumbar", "salidaEstacionamientoBiblio", "EsquinaestacionamientosBiblio"]
+    },
+    {
+      "from": "EllaDumbar",
+      "to": ["EstacionamientosBiblio", "Rectorado", "Plaza Fray Tomas"]
+    },
+    {
+      "from": "Rectorado",
+      "to": ["Plaza Fray Tomas", "EllaDumbar"]
+    },
+    {
+      "from": "EsquinaestacionamientosBiblio",
+      "to": ["EstacionamientosBiblio", "EsquinaparaderoBiblio", "Paradero Biblioteca"]
+    },
+    {
+      "from": "EsquinaparaderoBiblio",
+      "to": ["EsquinaestacionamientosBiblio", "Plaza Fray Tomas", "Paradero Biblioteca"]
+    },
+    {
+      "from": "Paradero Biblioteca",
+      "to": ["EducaBiblio3", "AdiosBiblio1", "EsquinaestacionamientosBiblio", "EsquinaparaderoBiblio"]
+    },
+    {
+      "from": "EducaBiblio3",
+      "to": ["EducaBiblio2", "Paradero Biblioteca"]
+    },
+    {
+      "from": "Plaza Fray Tomas",
+      "to": ["EllaDumbar", "Rectorado", "EsquinaparaderoBiblio", "Geografia", "Biblioteca"]
+    },
+    {
+      "from": "EducaBiblio2",
+      "to": ["EducaBiblio3", "EducaBiblio1"]
+    },
+    {
+      "from": "EducaBiblio1",
+      "to": ["InterseccionEduca", "EducaBiblio2", "LenguaYliteratura"]
+    },
+    {
+      "from": "InterseccionEduca",
+      "to": ["Educacion", "EducaBiblio1", "LenguaYliteratura", "Puerta7Rotonda", "RotondaIzquierda"]
+    },
+    {
+      "from": "Educacion",
+      "to": ["InterseccionEduca"]
+    },
+    {
+      "from": "LenguaYliteratura",
+      "to": ["CafeteriaOdontoPaso", "InterseccionEduca", "EducaBiblio1"]
+    },
+    {
+      "from": "Puerta7Rotonda",
+      "to": ["RotondaIzquierda", "CafeteriaOdontoPaso", "InterseccionEduca"]
+    },
+    {
+      "from": "RotondaIzquierda",
+      "to": ["Puerta7Rotonda", "EntradaOdonto2", "InterseccionEduca"]
+    },
+    {
+      "from": "CafeteriaOdontoPaso",
+      "to": ["LenguaYliteratura", "Puerta7Rotonda", "CafeteriaOdonto"]
+    },
+    {
+      "from": "CafeteriaOdonto",
+      "to": ["CafeteriaOdontoPaso", "EdFisicaPaso"]
+    },
+    {
+      "from": "EdFisicaPaso",
+      "to": ["fisiPuerta7.4", "EdFisica"]
+    },
+    {
+      "from": "EdFisica",
+      "to": ["EdFisicaPaso"]
+    },
+    {
+      "from": "EntradaOdonto2",
+      "to": ["EntradaGeograficas", "RotondaIzquierda"]
+    },
+    {
+      "from": "EntradaGeograficas",
+      "to": ["EsquinaOdonto", "Geografia", "EntradaOdonto2"]
+    },
+    {
+      "from": "Geografia",
+      "to": ["Plaza Fray Tomas", "EntradaGeograficas"]
+    },
+    {
+      "from": "EsquinaOdonto",
+      "to": ["EntradaGeograficas", "InstitutoMedTropical", "EO1"]
+    },
+    {
+      "from": "EO1",
+      "to": ["Fluidos", "EsquinaOdonto"]
+    },
+    {
+      "from": "Fluidos",
+      "to": ["EO1", "CaminoAFluidos2"]
+    },
+    {
+      "from": "InstitutoMedTropical",
+      "to": ["EsquinaOdonto", "Economiaizq1"]
+    },
+    {
+      "from": "Economiaizq1",
+      "to": ["InstitutoMedTropical", "Economiaizq2", "Economia Publica"]
+    },
+    {
+      "from": "Economia Publica",
+      "to": ["Paradero FISI", "Economiaizq1"]
+    },
+    {
+      "from": "Economiaizq2",
+      "to": ["Economiaizq1", "Enfermeria", "Tecnologia Biomedica"]
+    },
+    {
+      "from": "Enfermeria",
+      "to": ["Economiaizq2", "Psicologia"]
+    },
+    {
+      "from": "Psicologia",
+      "to": ["Enfermeria"]
+    },
+    {
+      "from": "Tecnologia Biomedica",
+      "to": ["Economiaizq2", "Ciencias Economicas"]
+    },
+    {
+      "from": "Ciencias Economicas",
+      "to": ["Tecnologia Biomedica"]
+    },
+    {
+      "from": "Biblioteca",
+      "to": ["Plaza Fray Tomas"]
+    }
+  ]
+}
