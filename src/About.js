@@ -13,7 +13,7 @@ function About() {
     setMessage('');
 
     try {
-        const response = await axios.post('https://matedisproyectorhamses.up.railway.app/chat', {
+        const response = await axios.post('https://matedisproyectorhamses.up.railway.app/About', {
         message: message  
         });
 
