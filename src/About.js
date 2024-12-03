@@ -13,8 +13,8 @@ function About() {
     setMessage('');
 
     try {
-        const response = await axios.post('http://127.0.0.1:5000/chat', {
-        message: message
+        const response = await axios.post('https://matedisproyectorhamses.up.railway.app/chat', {
+        message: message  
         });
 
         const botResponse = response.data.response || 'No pude entender eso.';
