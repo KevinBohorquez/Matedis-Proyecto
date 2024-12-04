@@ -37,7 +37,7 @@ export const products = [
     },
     {
       id: 7,
-      name: "1 pollo",
+      name: "Kilo de pollo",
       price: 9,
       productImage: "/resources/static/images/pollo.png"
     },

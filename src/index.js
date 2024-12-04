@@ -1,20 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Home";
 import Navbar from "./Navbar";
-import About from "./About";
-import Blog from "./Blog"
+import Chatbot from "./Chatbot";
 import Tiendas from "./Tiendas";
+import VendingMachine from "./VendingMachine";
 
 function App() {
     return (
         <Router>
         <Navbar />
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Blog" element={<Blog />} />
+            <Route path="/" element={<VendingMachine />} />
+            <Route path="/Chatbot" element={<Chatbot />} />
             <Route path="/Tiendas" element={<Tiendas />} />
         </Routes>
         </Router>

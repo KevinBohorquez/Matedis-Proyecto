@@ -219,7 +219,30 @@ const MainDiv = styled.div`
     display: flex;
     align-items: center;
     padding: 40px;
+    background-color: #DFF2EB;
+    button {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background: #fbca1f;
+        font-family: inherit;
+        padding: 0.6em 1.3em;
+        font-weight: 900;
+        font-size: 18px;
+        border: 3px solid black;
+        border-radius: 0.4em;
+        box-shadow: 0.1em 0.1em;
+        cursor: pointer;
+}
 
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
 `
 
 const MapDiv = styled.div`
@@ -232,21 +255,50 @@ const MapDiv = styled.div`
 `;
 
 const ControllerDiv = styled.div`
-    padding:90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f0f4f8;  /* Fondo más suave para el contenedor */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 140px;
+
     select {
-        padding: 10px;
+        padding: 12px 15px;
         font-size: 16px;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        background-color: #f9f9f9;
-        width: 200px;
-        margin: 10px;
+        border-radius: 8px;
+        border: 1px solid #007bff;
+        background-color: #ffffff;
+        width: 100%;
+        margin: 10px 0;
+        transition: all 0.3s ease;
+
+        &:hover {
+            border-color: #0056b3;
+        }
+
+        &:focus {
+            outline: none;
+            border-color: #0056b3;
+            box-shadow: 0 0 8px rgba(0, 91, 255, 0.5);
+        }
     }
 
     option {
         padding: 10px;
+        font-size: 14px;
+        background-color: #f9f9f9;
+        color: #333;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #e9ecef;
+        }
     }
-`
+`;
+
 
 const customIcon = new Icon({
     iconUrl: "https://cdn-icons-png.flaticon.com/512/447/447031.png",
@@ -356,7 +408,7 @@ const Tiendas = () => {
                 <button onClick={() => handleBuscarRuta("/places.json")}>
                     Buscar Ruta mas corta
                 </button>
-                {costoTotal !== null && <div>Costo total: {costoTotal} km</div>}
+                {costoTotal !== null && <div>Distancia total: {costoTotal.toFixed(2)} km</div>}
                 </div>
             </ControllerDiv>
 

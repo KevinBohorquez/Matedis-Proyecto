@@ -14,13 +14,12 @@ function Navbar() {
     <>
         <NavContainer>
         <h2>
-            Los pollos hermanos <span>Family</span>
+            Matematicas Discretas <span>Proyecto</span>
         </h2>
         <div className={`links ${clicked ? "active" : ""}`}>
             <Link to="/">Home</Link>
             <Link to="/tiendas">Tiendas</Link>
-            <Link to="/About">Nosotros</Link>
-            <Link to="/blog">Blog</Link>
+            <Link to="/Chatbot">Chatbot</Link>
         </div>
         <div className="burguer">
             <BurguerButton clicked={clicked} handleClick={handleClick} />
