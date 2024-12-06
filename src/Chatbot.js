@@ -6,7 +6,7 @@ function Chatbot() {
 
   const sendMessage = async () => {
     try {
-      const response = await fetch('https://pruebamatedis.up.railway.app/random-number', {
+      const response = await fetch('https://pruebamatedis.up.railway.app:8080/random-number', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
