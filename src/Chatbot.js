@@ -18,7 +18,7 @@ function Chatbot() {
       }
 
       const data = await response.json();
-      setRandomNumber(data.random_number); // Guarda el número aleatorio
+      setRandomNumber(data.random_number); // Guarda el número aleatorio en el estado
     } catch (error) {
       console.error('Error:', error);
     }
@@ -34,6 +34,8 @@ function Chatbot() {
         onChange={(e) => setMessage(e.target.value)}
       />
       <button onClick={sendMessage}>Enviar mensaje</button>
+      
+      {/* Muestra el número aleatorio solo cuando esté disponible */}
       {randomNumber !== null && (
         <p>El número aleatorio generado es: {randomNumber}</p>
       )}
