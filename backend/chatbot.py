@@ -10,10 +10,10 @@ from nltk.stem import WordNetLemmatizer
 import os
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('backend\intents.json').read())
-words = pickle.load(open('backend\words.pkl', 'rb'))
-classes = pickle.load(open('backend\classes.pkl', 'rb'))
-model = load_model('backend\maceta.keras')
+intents = json.loads(open('backend/intents.json').read())
+words = pickle.load(open('backend/words.pkl', 'rb'))
+classes = pickle.load(open('backend/classes.pkl', 'rb'))
+model = load_model('backend/maceta.keras')
 
 app = Flask(__name__)
 CORS(app)
@@ -59,4 +59,4 @@ def chat():
 
 if __name__ == '__main__':
     port = int(os.getenv("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(host="0.0.0.0", port=port)  # Ajuste para localhost
