@@ -105,9 +105,13 @@ function Chatbot() {
       const response = await axios.post(`https://pruebamatedis.up.railway.app/api/about`, {
         message: message
       });
-
-        const botResponse = response.data.response || 'No pude entender eso.';
-        setChatHistory([...newChatHistory, { sender: 'Chatbot', message: botResponse }]);
+        try {
+          const botResponse = response.data.response || 'No pude entender eso.';
+                  setChatHistory([...newChatHistory, { sender: 'Chatbot', message: botResponse }]);
+        } catch (error) {
+          console.error('Error 2', error);
+        }
+        
     } catch (error) {
         console.error('Error al comunicarse con el servidor:', error);
         setChatHistory([...newChatHistory, { sender: 'Chatbot', message: 'Hubo un error en el servidor.' }]);
