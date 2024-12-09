@@ -102,7 +102,7 @@ function Chatbot() {
     setMessage('');
 
     try {
-      const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/about`, {
+      const response = await axios.post(`https://pruebamatedis.up.railway.app/api/about`, {
         message: message
       });
 
