@@ -9,7 +9,7 @@ import VendingMachine from "./VendingMachine";
 function App() {
     return (
         <Router>
-        <Navbar />
+        
         <Routes>
             <Route path="/" element={<VendingMachine />} />
             <Route path="/Chatbot" element={<Chatbot />} />
