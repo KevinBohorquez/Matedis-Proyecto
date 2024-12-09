@@ -1,1 +1,1 @@
-web: python backend/chatbot.py
+web: python3 backend/chatbot.py
