@@ -102,7 +102,7 @@ const handleSendMessage = async () => {
     setMessage('');
 
     try {
-      const response = await fetch(`/chatbot`, {
+      const response = await fetch(`https://matedischatbot.up.railway.app/chatbot`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
