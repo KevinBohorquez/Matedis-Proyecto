@@ -109,7 +109,13 @@ function Chatbot() {
           const botResponse = response.data.response || 'No pude entender eso.';
                   setChatHistory([...newChatHistory, { sender: 'Chatbot', message: botResponse }]);
         } catch (error) {
-          console.error('Error 2', error);
+          axios.interceptors.response.use(
+            response => response,
+            error => {
+                console.error('Detalles del error:', error.response || error.message || error);
+                return Promise.reject(error);
+            }
+        );
         }
         
     } catch (error) {
