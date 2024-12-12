@@ -94,7 +94,7 @@ function Chatbot() {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
 
-const handleSendMessage = async () => {
+  const handleSendMessage = async () => {
     if (!message) return;
 
     const newChatHistory = [...chatHistory, { sender: 'Usuario', message }];
@@ -102,8 +102,12 @@ const handleSendMessage = async () => {
     setMessage('');
 
     try {
-      const response = await fetch(`https://matedischatbot.up.railway.app/chatbot`, {
+      const backendUrl = process.env.REACT_APP_BACKEND_URL;
+      
+      console.log('URL del backend:', backendUrl);
+      const response = await fetch(`${backendUrl}/chatbot`, {
         method: 'POST',
+        credentials: 'include',
         headers: {
           'Content-Type': 'application/json'
         },
