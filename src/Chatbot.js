@@ -94,9 +94,6 @@ function Chatbot() {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
 
-    const backendUrl = 'https://matedischatbot.up.railway.app'; // Dirección de tu backend
-const endpoint = '/chatbot'; // Endpoint al que haces la solicitud
-
 const handleSendMessage = async () => {
     if (!message) return;
 
@@ -105,7 +102,7 @@ const handleSendMessage = async () => {
     setMessage('');
 
     try {
-      const response = await fetch(`${backendUrl}${endpoint}`, {
+      const response = await fetch(`/chatbot`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

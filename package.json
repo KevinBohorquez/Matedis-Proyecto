@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },"proxy": "https://matedischatbot.up.railway.app",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --disable-host-check",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
