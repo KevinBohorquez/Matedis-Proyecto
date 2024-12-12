@@ -102,7 +102,7 @@ function Chatbot() {
     setMessage('');
 
     try {
-      const response = await axios.post(`https://matedisproyecto.up.railway.app/Chatbot`, {
+      const response = await axios.post(`https://matedischatbot.up.railway.app/chatbot`, {
         message: message
       });
         try {
