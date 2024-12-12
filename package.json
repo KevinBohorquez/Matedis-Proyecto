@@ -18,7 +18,7 @@
   },"proxy": "https://matedischatbot.up.railway.app",
   "homepage": "https://matedisproyecto.up.railway.app/",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "DISABLE_HOST_CHECK=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
