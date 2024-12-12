@@ -102,9 +102,10 @@ function Chatbot() {
     setMessage('');
 
     try {
-      const response = await axios.post(`https://matedischatbot.up.railway.app/chatbot`, {
-        message: message
-      });
+      const response = await axios.post('https://matedischatbot.up.railway.app/chatbot', 
+        { message: message }, 
+        { headers: { 'Content-Type': 'application/json' } }
+      );
         try {
           const botResponse = response.data.response || 'No pude entender eso.';
                   setChatHistory([...newChatHistory, { sender: 'Chatbot', message: botResponse }]);

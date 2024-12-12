@@ -34,7 +34,7 @@ h7 {
 function TitleMachine() {
     return (
     <TitleContainer>
-        <h7>Fisi Express</h7>
+        <h6>Fisi Express</h6>
     </TitleContainer>
     );
 }
