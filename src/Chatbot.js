@@ -94,7 +94,10 @@ function Chatbot() {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
 
-    const handleSendMessage = async () => {
+    const backendUrl = 'https://matedischatbot.up.railway.app'; // Dirección de tu backend
+const endpoint = '/chatbot'; // Endpoint al que haces la solicitud
+
+const handleSendMessage = async () => {
     if (!message) return;
 
     const newChatHistory = [...chatHistory, { sender: 'Usuario', message }];
@@ -102,28 +105,29 @@ function Chatbot() {
     setMessage('');
 
     try {
-      const response = await axios.post('https://matedischatbot.up.railway.app/chatbot', 
-        { message: message }, 
-        { headers: { 'Content-Type': 'application/json' } }
-      );
-        try {
-          const botResponse = response.data.response || 'No pude entender eso.';
-                  setChatHistory([...newChatHistory, { sender: 'Chatbot', message: botResponse }]);
-        } catch (error) {
-          axios.interceptors.response.use(
-            response => response,
-            error => {
-                console.error('Detalles del error:', error.response || error.message || error);
-                return Promise.reject(error);
-            }
-        );
-        }
-        
+      const response = await fetch(`${backendUrl}${endpoint}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ message: message })
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      const botResponse = data.response || 'No pude entender eso.';
+      setChatHistory([...newChatHistory, { sender: 'Chatbot', message: botResponse }]);
+
     } catch (error) {
-        console.error('Error al comunicarse con el servidor:', error);
-        setChatHistory([...newChatHistory, { sender: 'Chatbot', message: 'Hubo un error en el servidor.' }]);
+      console.error('Error al comunicarse con el servidor:', error);
+      setChatHistory([...newChatHistory, { sender: 'Chatbot', message: 'Hubo un error en el servidor.' }]);
     }
   };
+
 
   return (
     <Main>
